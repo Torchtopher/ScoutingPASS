@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2030",
-  "page_title": "Crescendo",
+  "title": "Scouting PASS 2024",
+  "page_title": "WATER GAME",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
