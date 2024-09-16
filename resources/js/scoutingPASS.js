@@ -1377,6 +1377,7 @@ function flip(event) {
 }
 
 function displayData(){
+  console.log("RAN DISPLAY DATA");
   let str = 'Event: !EVENT! Match: !MATCH! Robot: !ROBOT! Team: !TEAM!';
 
   if (!pitScouting) {
@@ -1391,7 +1392,6 @@ function displayData(){
   }
 
   sessionStorage.setItem("match_data", str);
-  console.log("RAN DISPLAY DATA");
   document.getElementById('data').innerHTML = getData(dataFormat);
 }
 
